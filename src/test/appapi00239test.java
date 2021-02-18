@@ -44,6 +44,7 @@ public class appapi00239test {
         GetClient getClient =
                 executableClient.getInstance().newGetClient(api);*/
         String api = "/bpms/openapi/procInst/executeInstTodo.json";
+        //String api = "/http/bpms/openapi/procInst/executeInstTodo.json";
         ApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
         //PostClient postClient = ExecutableClient.getInstance().newPostClient(api);
         ExecutableClient executableClient = (ExecutableClient) app.getBean("executableClient");
@@ -55,10 +56,10 @@ public class appapi00239test {
         //getClient.addParameter("procInsId","6e32f753-1636-426e-9811-fc32209b4801");
         //getClient.addParameter("procInsId","91b44a9d-a364-4d94-ad05-5dcb87c842e8");
         //getClient.addParameter("procInsId","c3eb40de-0366-401c-aa8c-e9a0445b6464");
-        String procInsId = "c3eb40de-0366-401c-aa8c-e9a0445b6464";
+        String procInsId = "83684e60-ff3d-4922-a954-fc4c0483c85d";
         getClient.addParameter("procInsId", procInsId);
        // getClient.addParameter("procInsId","b858e355-5374-4e47-ad36-75fa72fd81cb");
-        getClient.addParameter("loginWorkNo","2842352743779575");
+        getClient.addParameter("loginWorkNo","2262150");
         getClient.addParameter("action","Agree");
         getClient.addParameter("remark","统一");
         //String apiResult = getClient.get();

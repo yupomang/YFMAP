@@ -30,6 +30,7 @@ projectname 回执方中心名称*/
 	private String userid;
 	private String brccode;
 	private String projectname;
+	private String accname;
 
 	private String centerId;
 	private String buzType;
@@ -86,6 +87,14 @@ projectname 回执方中心名称*/
 
 	//------------------------------------- 2020-12-22异地缴存证明字段添加完毕
 
+
+	public String getAccname() {
+		return this.accname;
+	}
+
+	public void setAccname(String accname) {
+		this.accname = accname;
+	}
 
 	public String getUserId() {
 		return userId;

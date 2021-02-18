@@ -15,4 +15,7 @@
 <AuthCode3>[@getVariable,tellcode,30,0,0@]</>
 <AuthCode1>[@getVariable,tellcode,30,0,0@]</>
 <pubaccnum>[@getVariable,pubaccnum,128,0,0@]</>
+<handset>[@getVariable,handset,128,0,0@]</>
+<cagorcode>[@getVariable,cagorcode,128,0,0@]</>
+<loanchgtype>[@getVariable,chgtype,128,0,0@]</>
 <pwd>[@getVariable,password,128,0,0@]</>

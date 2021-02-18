@@ -410,8 +410,25 @@ public class AppApi030Form extends AppApiCommonForm {
 	private String unitlicaddr= "";
 	private String unitnorprop= "";
 	private String webbusmaget= "";
-	
-//===================株洲新加	
+	private String cagorcode= "";
+	private String chgtype= "";
+
+	public String getCagorcode() {
+		return this.cagorcode;
+	}
+
+	public void setCagorcode(String cagorcode) {
+		this.cagorcode = cagorcode;
+	}
+
+	public String getChgtype() {
+		return this.chgtype;
+	}
+
+	public void setChgtype(String chgtype) {
+		this.chgtype = chgtype;
+	}
+//===================株洲新加
 	/** 密码 */			
 	private String password = "";
 	private String acceptreason     = "";

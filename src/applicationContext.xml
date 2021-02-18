@@ -7,7 +7,10 @@
           init-method="init" destroy-method="destroy">
         <property name="protocal" value="https"></property>
         <property name="domainName" value="openplatform.ding.zj.gov.cn"></property>
+        <!-- <property name="domainName" value="openplatform-pro.ding.zj.gov.cn"></property>-->
         <property name="accessKey" value="zwoa_nbgjj_yjs-Qhesv4RANbuERri"></property>
         <property name="secretKey" value="nIw5clfz4ON00JU912KS8rI29J5H33t4Cq687vA3"></property>
+        <!-- <property name="accessKey" value="zwoa_nbgjj_yjs-Qa4r41LJyqEFzyq"></property>-->
+        <!-- <property name="secretKey" value="ZO9qf180I2p22s1MWnRanaVrW3yN1weo1xRI223g"></property>-->
     </bean>
 </beans>

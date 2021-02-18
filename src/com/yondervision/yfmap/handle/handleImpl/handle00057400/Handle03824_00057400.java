@@ -78,8 +78,9 @@ public class Handle03824_00057400 implements CtrlHandleInter {
 			}
 			form.setFlag(Channel.getChannel(form.getChannel()));
 			
-			HashMap map = BeanUtil.transBean2Map(form);		
-			map.put("tellcode", PropertiesReader.getProperty(PROPERTIES_FILE_NAME, "appapichannel"+form.getChannel()).trim());
+			HashMap map = BeanUtil.transBean2Map(form);
+			map.put("tellcode", "wtgy");
+			//map.put("tellcode", PropertiesReader.getProperty(PROPERTIES_FILE_NAME, "appapichannel"+form.getChannel()).trim());
 		    String xml = MessageCtrMain.encapsulatedPackets(msgType, CommonUtil.getFullURL(Constants.msgPath+form.getCenterId())+"/BSP_REQ_ZGZFGJJJCQKZM.txt", map, req);
 			//String xml = MessageCtrMain.encapsulatedPackets(msgType, "D:/workzone/YFMAP/src/com/yondervision/yfmap/config/messagetemp/00057400/BSP_REQ_ZGZFGJJJCQKZM.txt", map, req);
 			log.debug("前置YFMAP发往中心报文："+xml);			

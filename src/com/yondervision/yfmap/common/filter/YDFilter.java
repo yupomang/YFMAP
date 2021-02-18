@@ -109,9 +109,9 @@ public class YDFilter implements Filter {
 					  ||path.startsWith("/appapi00205")||path.startsWith("/appapi00206")||path.startsWith("/appapi00207")||path.startsWith("/appapi00337")
 					  ||path.startsWith("/appapi00208")||path.startsWith("/appapi00209")||path.startsWith("/appapi00210")||path.startsWith("/appapi00211")
 					  ||path.startsWith("/appapi00212")||path.startsWith("/appapi00213")||path.startsWith("/appapi00172")||path.startsWith("/appapi10000")||path.startsWith("/appapi10001")
-					  ||path.startsWith("/appapi00214")||path.startsWith("/appapi00215")||path.startsWith("/appapi00216")||path.startsWith("/appapi00217")||path.startsWith("/appapi00218")
-					  ||path.startsWith("/appapi00219")||path.startsWith("/appapi00220")||path.startsWith("/appapi10002")||path.startsWith("/appapi00221")||path.startsWith("/appapi00239")
-					  ||path.startsWith("/appapi00222")||path.startsWith("/appapi00223")||path.startsWith("/appapi00224")||path.startsWith("/appapi00225")||path.startsWith("/appapi00226")||path.startsWith("/appapi03824")
+					  ||path.startsWith("/appapi00214")||path.startsWith("/appapi00215")||path.startsWith("/appapi00216")||path.startsWith("/appapi00217")||path.startsWith("/appapi00218")||path.startsWith("/appapi00179")
+					  ||path.startsWith("/appapi00219")||path.startsWith("/appapi00220")||path.startsWith("/appapi10002")||path.startsWith("/appapi00221")||path.startsWith("/appapi00239")||path.startsWith("/appapi00178")
+					  ||path.startsWith("/appapi00222")||path.startsWith("/appapi00223")||path.startsWith("/appapi00224")||path.startsWith("/appapi00225")||path.startsWith("/appapi00226")
 					  ||path.startsWith("/appapi00227")||path.startsWith("/appapi00229")||path.startsWith("/appapi00233")||path.startsWith("/appapi00234")||path.startsWith("/appapi00236")||path.startsWith("/appapi00237")
 					  ||path.startsWith("/appapi00250")||path.startsWith("/appapi00251")||path.startsWith("/appapi00252")||path.startsWith("/appapi00253")||path.startsWith("/appapi00254")||path.startsWith("/appapi00255")
 			 )
@@ -138,7 +138,7 @@ public class YDFilter implements Filter {
 				  request1.setCharacterEncoding("GBK");
 				  response.setCharacterEncoding("GBK");
 				  chain.doFilter(request1, response); 
-			  }else if (path.startsWith("/webapi80004")){
+			  }else if (path.startsWith("/webapi80004")||path.startsWith("/webapi80015")){
 				  request1.setCharacterEncoding("UTF-8");
 				  response.setCharacterEncoding("GBK");
 				  chain.doFilter(request1, response); 

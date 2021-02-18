@@ -30,4 +30,7 @@
 <lpstate>[@setVariable,lpstate,128,0,0@]</>
 <linkman>[@setVariable,linkman,128,0,0@]</>
 <linkphone>[@setVariable,linkphone,128,0,0@]</>
+<handset>[@setVariable,handset,128,0,0@]</>
+<cagorcode>[@setVariable,cagorcode,128,0,0@]</>
+<chgtype>[@setVariable,loanchgtype,128,0,0@]</>
 <considerinfo>[@setVariable,considerinfo,512,0,0@]</>
